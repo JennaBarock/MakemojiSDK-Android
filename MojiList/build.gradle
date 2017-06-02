@@ -31,6 +31,12 @@ android {
     }
 }
 
+
+public void onCreate(){ super.onCreate(); Moji.initialize(this,"YOUR_KEY_HERE"); //Moji.setUserId("Google ad id here if needed"); // optional custom user id for analytics } 
+<application android:name="com.makemoji.sbaar.mojilist.App" ...public void onCreate(){ super.onCreate(); Moji.initialize(this,"YOUR_KEY_HERE"); //Moji.setUserId("Google ad id here if needed"); // optional custom user id for analytics } 
+<application android:name="com.makemoji.sbaar.mojilist.App" ...dependencies { compile 'com.makemoji:makemoji-sdk-android:0.9.777' } repositories { jcenter() maven { url "https://dl.bintray.com/mm/maven/" } } 
+public void onCreate(){ super.onCreate(); Moji.initialize(this,"YOUR_KEY_HERE"); //Moji.setUserId("Google ad id here if needed"); // optional custom user id for analytics } 
+
 dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:25.3.1'
